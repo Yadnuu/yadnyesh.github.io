@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Isha ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- Background -->
+<!-- ========================= -->
+
+<div id="background"></div>
+<div id="overlay"></div>
+
+<!-- ========================= -->
+<!-- Music -->
+<!-- ========================= -->
+
+<audio id="birthdayMusic" loop>
+    <source src="assets/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ========================= -->
+<!-- Floating Effects -->
+<!-- ========================= -->
+
+<div id="hearts"></div>
+<div id="confetti"></div>
+<div id="balloons"></div>
+<div id="fireworks"></div>
+
+<!-- ========================= -->
+<!-- Loading Screen -->
+<!-- ========================= -->
+
+<div id="loading">
+
+    <h1>Preparing Something Special ❤️</h1>
+
+    <div class="loader"></div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Welcome Screen -->
+<!-- ========================= -->
+
+<section id="welcome">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<h2>Isha ❤️</h2>
+
+<p>
+
+A little surprise is waiting for you...
+
+</p>
+
+<button id="startBtn">
+
+🎁 Open Surprise
+
+</button>
+
+</section>
+<!-- ========================= -->
+<!-- Birthday Letter -->
+<!-- ========================= -->
+
+<section id="letter" class="hidden">
+
+    <div class="glass-card">
+
+        <h1>💌 Happy Birthday Isha ❤️</h1>
+
+        <div id="typingBox">
+
+            <p id="typingText"></p>
+
+        </div>
+
+        <button id="continueBtn">
+
+            Continue 🎁
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Gift Voucher -->
+<!-- ========================= -->
+
+<section id="voucher" class="hidden">
+
+    <div class="voucher-card">
+
+        <h1>🎁 Birthday Gift Voucher</h1>
+
+        <h2>Happy Birthday Isha ❤️</h2>
+
+        <p class="voucher-text">
+
+            This voucher can be redeemed on
+
+        </p>
+<h3>🛍️ You can use this gift voucher on</h3>
+
+<div class="stores">
+
+    <div class="store">
+        🛒 Amazon
+    </div>
+
+    <div class="store">
+        ⚡ Blinkit
+    </div>
+
+    <div class="store">
+        🍔 Swiggy
+    </div>
+
+    <div class="store">
+        🍕 Zomato
+    </div>
+
+</div>
+
+        <h3>Scratch Below To Reveal Your Coupon</h3>
+
+       <div id="scratchContainer">
+
+    <div id="coupon">
+
+    <h2>🎉 Congratulations 🎉</h2>
+
+    <div id="couponCode">
+        YOUR-COUPON-HERE
+    </div>
+
+    <p class="giftValue">
+        🎁 Gift Voucher
+    </p>
+
+    <div class="companyList">
+
+        <div>🛒 Amazon</div>
+        <div>⚡ Blinkit</div>
+        <div>🍔 Swiggy</div>
+        <div>🍕 Zomato</div>
+
+    </div>
+
+    <p class="redeemText">
+        You can redeem this gift on any of the above platforms.
+    </p>
+
+    <p class="madeBy">
+        ❤️ Made with Love by Yadnyesh ❤️
+    </p>
+
+</div>
+
+    <canvas id="scratchCanvas"></canvas>
+
+</div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Final Celebration -->
+<!-- ========================= -->
+
+<section id="finalPage" class="hidden">
+
+    <div class="glass-card">
+
+        <h1>🎉 Happy Birthday Isha 🎉</h1>
+
+        <h2>
+
+            Wishing you endless happiness,
+            success,
+            good health,
+            and lots of beautiful memories.
+
+        </h2>
+
+        <p>
+
+            Thank you for being such an amazing person.
+
+        </p>
+
+        <h3>
+
+            ❤️ Stay Happy Always ❤️
+
+        </h3>
+
+        <h2>
+
+            — From Yadnyesh
+
+        </h2>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
